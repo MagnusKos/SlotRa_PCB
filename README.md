@@ -1,17 +1,20 @@
-# fakeTec_pcb
-A low-cost nRF52 device with the form-factor of the Heltec v2 & v3 devices compatible with [Meshtastic](https://meshtastic.org/)®.
+# SlotRa_PCB
+A rework of [fakeTec_pcb](https://github.com/gargomoma/fakeTec_pcb) project compatible with [Meshtastic](https://meshtastic.org/)®. Based on nRF52840 small boards and cheap LoRa modules identical to RA-62.
+This rework rearranges the PCB to become a size of BL-5C battery. It's placed in a custom case project named SlotRa (_to be published_).
+
+__This Readme.md is a modified version of the original one by gargomoma, Big Thanks to them.__
+
 
 # Pictures
 <details><summary>Click to open</summary>
 
-| Front | Back |
+| Real photo | 3D visualization |
 | :------------ | :---------------------------- |
-|![image](https://github.com/gargomoma/fakeTec_pcb/blob/main/pics/front_fakeTec.png) | ![image](https://github.com/gargomoma/fakeTec_pcb/blob/main/pics/back_fakeTec.png) |
+|![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_photo.png) | ![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_3D.png) |
 
 </details>
 
 ## Features
-- Small size based on Heltec v3: You can use the same cases!
 - i2c side ports ready to connect an OLED SSD1306 screen.
 - Battery sensing: You can use SMD resistors or through-hole.
 - 2mm mounting holes.
@@ -62,23 +65,6 @@ A low-cost nRF52 device with the form-factor of the Heltec v2 & v3 devices compa
 | [mosstrike1](https://cults3d.com/en/users/mosstrike1) | **FakeDeck** | [https://cults3d.com/en/3d-model/various/fakedeck-a-faketek-standalone-meshtastic-device](https://cults3d.com/en/3d-model/various/fakedeck-a-faketek-standalone-meshtastic-device ) |
 | [candre23](https://github.com/gargomoma/fakeTec_pcb/issues/5) | **Dummy Model** | [printables](https://www.printables.com/model/1098558-faketec-dummy-model) |
 | [candre23](https://github.com/gargomoma/fakeTec_pcb/issues/5) | **p4gr** | [printables](https://www.printables.com/model/1099391-p4gr-a-minimalist-enclosure-for-the-faketec-meshta) |
-
-## Videos
-[Building FakeTec v2 by KBOX Labs](https://www.youtube.com/watch?v=NtnSVTl6weA)
-
-[Building FakeTec v2 by lupusworax](https://www.youtube.com/watch?v=JvBfYyUF-0w)
-
-[Building FakeTec v3 by ea3grn (spanish)](https://www.youtube.com/watch?v=NRIXPWYmfq8)
-
-## PCB Versions
-
-| Version | Description |
-|--------|--------|
-| 1 | Original layout. |
-| 2 | OledPins moved; Voltage divider resistors moved; added 2mm holes. |
-| 3 | Bigger pads; Added 2 x pushbuttons; Access to charge boost option. |
-| [4](https://github.com/gargomoma/fakeTec_pcb/issues/16) | Same as v3 with 3 x smd power mosfets for swithching external hardware. [💖 Full credit goes to lupusworax 💖] | 
-| [5](https://github.com/gargomoma/fakeTec_pcb/issues/24) | Battery protection, low profile, JST connector, dedicated battery pins. [💖 Full credit goes to ShimonHoranek 💖] |
 
 # Notes
 
