@@ -448,7 +448,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "fakeTecv5.kicad_pro",
+    "filename": "SlotRa.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -594,7 +594,7 @@
   "sheets": [
     [
       "9f57df6b-a9d3-4597-bf34-a2cbfc394ff5",
-      "Root"
+      "Корневой лист"
     ]
   ],
   "text_variables": {}
