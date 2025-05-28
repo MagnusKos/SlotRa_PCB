@@ -1,0 +1,97 @@
+(footprint "MountingHole_5.3mm_M5"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 5.3mm, no annular, M5")
+	(tags "mounting hole 5.3mm no annular m5")
+	(property "Reference" "REF**"
+		(at 0 -6.3 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2b997543-f308-43b9-8074-2530fbbdf2eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole_5.3mm_M5"
+		(at 0 6.3 0)
+		(layer "F.Fab")
+		(uuid "ed948b88-f06e-4c8a-9375-5496d7bcf0ce")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole:MountingHole_5.3mm_M5"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b1e0dc6-9ee7-4861-aee7-f4a6f4d0f92c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7793fc8b-17a2-4637-bdba-3f51b1311ef7")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4e5922bd-5236-4f75-a16a-a9c2b113e577")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 2.65 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Margin")
+		(uuid "d8ebab11-d5cb-41e1-a9ba-d973549b976d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "cb4b5c5a-9569-44f9-a77f-baa461bce04a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 5.3 5.3)
+		(drill 5.3)
+		(layers "*.Cu" "*.Mask")
+		(uuid "07803d74-0248-4b5a-b0c7-42f4552fce01")
+	)
+)

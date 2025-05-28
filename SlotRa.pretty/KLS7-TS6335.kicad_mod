@@ -1,0 +1,136 @@
+(footprint "KLS7-TS6335"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(tags "button")
+	(property "Reference" "REF**"
+		(at 0.275 -2.475 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ae5c0f5e-7bcb-4220-a8dc-5997869d194a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KLS7-TS6335"
+		(at 0 2.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "72054310-79c0-49cb-8c23-65ceeead2990")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9fe01786-6464-44a4-bf2f-f5460d30bb68")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://static.chipdip.ru/lib/551/DOC001551926.pdf"
+		(at 0.075 6.075 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dc72ab07-ef88-4a63-99c9-a47f97571886")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Side touch switch"
+		(at -0.075 -4.3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8cee8c7-4e29-4b07-9e08-d9b985d671cd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.125 -1.75)
+		(end 3.125 1.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b056c3de-f47e-4678-9c65-128f7e6f4e06")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.225 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6be4af13-5502-4564-8274-c666214b6ffc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -1.35)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "7e30bfce-6d46-42ec-abd0-a3fa2e548737")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 1.35)
+		(size 0.7 0.7)
+		(drill 0.7)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "9d708a1a-af82-4363-b44d-9358313b0f6a")
+	)
+	(pad "1" smd rect
+		(at -2.375 -0.85)
+		(size 1.1 0.91)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "cddbd279-8cf7-4124-8eec-913e03b00377")
+	)
+	(pad "1" smd rect
+		(at 2.375 -0.85)
+		(size 1.1 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6b3e5a8d-8293-4723-8233-de26b8e236c3")
+	)
+	(pad "2" smd rect
+		(at -2.375 0.85)
+		(size 1.1 0.91)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "15d51bf1-55db-4c50-ba47-1ea1de2599ed")
+	)
+	(pad "2" smd rect
+		(at 2.375 0.85)
+		(size 1.1 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "6cffa34a-1188-48b4-a487-946ca57c5485")
+	)
+)
