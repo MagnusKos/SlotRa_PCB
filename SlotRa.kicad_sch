@@ -6064,6 +6064,29 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
+		(at 128.27 152.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28ba8366-8b00-41f8-a21a-70c54b7fd8e1")
+		(property "Netclass" "Power"
+			(at 125.73 151.7015 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
 		(at 74.93 151.13 270)
 		(fields_autoplaced yes)
 		(effects

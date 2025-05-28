@@ -497,6 +497,7 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "Net-(J2-Pin_2)": "Power",
       "Net-(JP1-A)": "Power"
     },
     "netclass_patterns": [
@@ -519,7 +520,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/home/shimon/Faketec/fakeTec v5/fakeTecv5_gerber_files/",
+      "plot": "./out",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
