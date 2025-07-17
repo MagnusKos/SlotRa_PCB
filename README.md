@@ -8,9 +8,9 @@ __This Readme.md is a modified version of the original one by gargomoma, Big Tha
 # Pictures
 <details><summary>Click to open</summary>
 
-| Real photo | 3D visualization |
-| :------------ | :---------------------------- |
-|![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_photo.png) | ![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_3D.png) |
+| Just a PCB | A PCB with a batt | A PCB in a slot |
+| :------------ | :------------ | :------------ |
+|![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_photo.jpg) | ![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_with_batt.jpg) | ![image](https://github.com/MagnusKos/SlotRa_PCB/blob/main/pics/PCB_in_slot.jpg) |
 
 </details>
 
